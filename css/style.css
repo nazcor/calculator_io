@@ -1,1 +1,10 @@
 
+body {
+    background: rgb(31, 28, 41);
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    color: rgb(232, 230, 232);
+    text-align: center;
+}
