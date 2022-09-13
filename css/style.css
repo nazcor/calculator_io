@@ -17,13 +17,13 @@ button {
 
 #calculator {
     height: 600px;
-    width: 500px;
+    width: 400px;
     margin: auto;
     border-radius: 10px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     background: rgb(208, 207, 212);
     padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
     display: grid;
     grid-template-columns: repeat(4, 25%);
@@ -42,6 +42,7 @@ button {
     height: 100px;
     width: auto;
     height: auto;
+    margin: 3px;
 }
 
 input[type=number] {
@@ -51,6 +52,16 @@ input[type=number] {
     grid-area: 1 / 1 / 2 / 5;
     width: auto;
     height: auto;
+    padding-right: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 #button__equ {
