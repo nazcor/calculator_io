@@ -11,6 +11,10 @@ h1 {
     text-align: center;
 }
 
+button {
+    cursor: pointer;
+}
+
 #calculator {
     height: 600px;
     width: 500px;
@@ -18,4 +22,59 @@ h1 {
     border-radius: 10px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     background: rgb(208, 207, 212);
+    padding: 20px;
+    margin-bottom: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(6, 16%);
+    column-gap: 2px;
+    row-gap: 8px;
+    justify-content: space-between;
+}
+
+.calc__item {
+    color: rgb(0, 0, 0);
+    font-family: 'Exo 2', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    width: auto;
+    height: auto;
+}
+
+input[type=number] {
+    text-align: right;
+    font-family: 'Quantico', sans-serif;
+    font-size: 40px;
+    grid-area: 1 / 1 / 2 / 5;
+    width: auto;
+    height: auto;
+}
+
+#button__equ {
+    grid-area: 5 / 4 / 7 / 5;
+    height: auto;
+    background: rgba(50, 133, 168, 0.8);
+}
+
+#button__equ:hover {
+    background: rgba(43, 115, 146, 0.8);
+}
+
+#button__equ:active {
+    background: rgba(35, 93, 118, 0.8);
+}
+
+#button__clear, #button__div, #button__mult, #button__delete {
+    background: rgb(141, 141, 145);
+}
+
+#button__clear:hover, #button__div:hover, #button__mult:hover, #button__delete:hover {
+    background: rgb(104, 104, 107);
+}
+
+#button__clear:active, #button__div:active, #button__mult:active, #button__delete:active {
+    background: rgb(76, 76, 79);
 }
