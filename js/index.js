@@ -135,3 +135,67 @@ function insertNeg() {
     }
     document.querySelector('#output').value = input;
 }
+
+function insertAdd() {
+    let input = document.querySelector('#output').value;
+    
+    switch(input[input.length - 1]) {
+        case '+':
+        case '-':
+        case '/':
+        case 'x':
+            break;
+        default:
+            input += '+';
+    }
+    document.querySelector('#output').value = input;
+}
+
+function insertSub() {
+    let input = document.querySelector('#output').value;
+    
+    switch(input[input.length - 1]) {
+        case '+':
+        case '-':
+        case '/':
+        case 'x':
+            break;
+        default:
+            input += '-';
+    }
+    document.querySelector('#output').value = input;
+}
+
+function insertMult() {
+    let input = document.querySelector('#output').value;
+    
+    switch(input[input.length - 1]) {
+        case '+':
+        case '-':
+        case '/':
+        case 'x':
+            break;
+        default:
+            input += '*';
+    }
+    document.querySelector('#output').value = input;
+}
+
+function insertDiv() {
+    let input = document.querySelector('#output').value;
+    
+    switch(input[input.length - 1]) {
+        case '+':
+        case '-':
+        case '/':
+        case 'x':
+            break;
+        default:
+            input += '/';
+    }
+    document.querySelector('#output').value = input;
+}
+
+function evaluateExp() {
+    document.querySelector('#output').value = eval(document.querySelector('#output').value);
+}
