@@ -11,6 +11,12 @@ h1 {
     text-align: center;
 }
 
+p {
+    font-family: 'Exo 2', sans-serif;
+    color: rgb(232, 230, 232);
+    text-align: center;
+}
+
 button {
     cursor: pointer;
 }
