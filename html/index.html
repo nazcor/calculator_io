@@ -13,26 +13,27 @@
     <body>
         <h1>Calculator IO</h1>
         <div id="calculator">
-            <input type="number" value="0" class="calc__item"></input>
-            <button class="calc__item" id="button__clear">C</button>
+            <input type="number" placeholder="0" class="calc__item" id="output"></input>
+            <button class="calc__item" id="button__clear" onclick="clearOutput()">C</button>
             <button class="calc__item" id="button__div">÷</button>
             <button class="calc__item" id="button__mult">×</button>
             <button class="calc__item" id="button__delete">DEL</button>
-            <button class="calc__item" id="button__7">7</button>
-            <button class="calc__item" id="button__8">8</button>
-            <button class="calc__item" id="button__9">9</button>
+            <button class="calc__item" id="button__7" onclick="insertSeven()">7</button>
+            <button class="calc__item" id="button__8" onclick="insertEight()">8</button>
+            <button class="calc__item" id="button__9" onclick="insertNine()">9</button>
             <button class="calc__item" id="button__sub">-</button>
-            <button class="calc__item" id="button__4">4</button>
-            <button class="calc__item" id="button__5">5</button>
-            <button class="calc__item" id="button__6">6</button>
+            <button class="calc__item" id="button__4" onclick="insertFour()">4</button>
+            <button class="calc__item" id="button__5" onclick="insertFive()">5</button>
+            <button class="calc__item" id="button__6" onclick="insertSix()">6</button>
             <button class="calc__item" id="button__add">+</button>
-            <button class="calc__item" id="button__1">1</button>
-            <button class="calc__item" id="button__2">2</button>
-            <button class="calc__item" id="button__3">3</button>
-            <button class="calc__item" id="button__0">0</button>
-            <button class="calc__item" id="button__dec">.</button>
+            <button class="calc__item" id="button__1" onclick="insertOne()">1</button>
+            <button class="calc__item" id="button__2" onclick="insertTwo()">2</button>
+            <button class="calc__item" id="button__3" onclick="insertThree()">3</button>
+            <button class="calc__item" id="button__0" onclick="insertZero()">0</button>
+            <button class="calc__item" id="button__dec" onclick="insertDecimal()">.</button>
             <button class="calc__item" id="button__sign">+/-</button>
             <button class="calc__item" id="button__equ">=</button>
         </div>
+        <script src="../js/index.js" type="text/javascript"></script>
     </body>
 </html>
