@@ -1,42 +1,102 @@
 
 function insertZero() {
-    document.querySelector('#output').value += '0';
+    let input = document.querySelector('#output').value;
+    if((input[0] == '0') && (input.length == 1)) {
+        return;
+    }
+    else {
+        document.querySelector('#output').value += '0';
+    }
 };
 
 function insertOne() {
-    document.querySelector('#output').value += '1';
+    let input = document.querySelector('#output').value;
+    if((input[0] == '0') && (input.length == 1)) {
+        document.querySelector('#output').value = '1';
+    }
+    else {
+        document.querySelector('#output').value += '1';
+    }
 };
 
 function insertTwo() {
-    document.querySelector('#output').value += '2';
+    let input = document.querySelector('#output').value;
+    if((input[0] == '0') && (input.length == 1)) {
+        document.querySelector('#output').value = '2';
+    }
+    else {
+        document.querySelector('#output').value += '2';
+    }
 };
 
 function insertThree() {
-    document.querySelector('#output').value += '3';
+    let input = document.querySelector('#output').value;
+    if((input[0] == '0') && (input.length == 1)) {
+        document.querySelector('#output').value = '3';
+    }
+    else {
+        document.querySelector('#output').value += '3';
+    }
 };
 
 function insertFour() {
-    document.querySelector('#output').value += '4';
+    let input = document.querySelector('#output').value;
+    if((input[0] == '0') && (input.length == 1)) {
+        document.querySelector('#output').value = '4';
+    }
+    else {
+        document.querySelector('#output').value += '4';
+    }
 };
 
 function insertFive() {
-    document.querySelector('#output').value += '5';
+    let input = document.querySelector('#output').value;
+    if((input[0] == '0') && (input.length == 1)) {
+        document.querySelector('#output').value = '5';
+    }
+    else {
+        document.querySelector('#output').value += '5';
+    }
 };
 
 function insertSix() {
-    document.querySelector('#output').value += '6';
+    let input = document.querySelector('#output').value;
+    if((input[0] == '0') && (input.length == 1)) {
+        document.querySelector('#output').value = '6';
+    }
+    else {
+        document.querySelector('#output').value += '6';
+    }
 };
 
 function insertSeven() {
-    document.querySelector('#output').value += '7';
+    let input = document.querySelector('#output').value;
+    if((input[0] == '0') && (input.length == 1)) {
+        document.querySelector('#output').value = '7';
+    }
+    else {
+        document.querySelector('#output').value += '7';
+    }
 };
 
 function insertEight() {
-    document.querySelector('#output').value += '8';
+    let input = document.querySelector('#output').value;
+    if((input[0] == '0') && (input.length == 1)) {
+        document.querySelector('#output').value = '8';
+    }
+    else {
+        document.querySelector('#output').value += '8';
+    }
 };
 
 function insertNine() {
-    document.querySelector('#output').value += '9';
+    let input = document.querySelector('#output').value;
+    if((input[0] == '0') && (input.length == 1)) {
+        document.querySelector('#output').value = '9';
+    }
+    else {
+        document.querySelector('#output').value += '9';
+    }
 };
 
 function insertDecimal() {
