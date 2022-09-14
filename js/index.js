@@ -47,6 +47,8 @@ function clearOutput() {
     document.querySelector('#output').value = '';
 };
 
-function deleteOutput() {
-    
+function deleteLast() {
+    let input = document.querySelector('#output').value;
+    input = input.substring(0, input.length - 1);
+    document.querySelector('#output').value = input;
 };

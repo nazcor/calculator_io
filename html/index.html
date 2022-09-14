@@ -13,11 +13,11 @@
     <body>
         <h1>Calculator IO</h1>
         <div id="calculator">
-            <input type="number" placeholder="0" class="calc__item" id="output"></input>
+            <input type="text" placeholder="0" class="calc__item" id="output"></input>
             <button class="calc__item" id="button__clear" onclick="clearOutput()">C</button>
             <button class="calc__item" id="button__div">÷</button>
             <button class="calc__item" id="button__mult">×</button>
-            <button class="calc__item" id="button__delete">DEL</button>
+            <button class="calc__item" id="button__delete" onclick="deleteLast()">DEL</button>
             <button class="calc__item" id="button__7" onclick="insertSeven()">7</button>
             <button class="calc__item" id="button__8" onclick="insertEight()">8</button>
             <button class="calc__item" id="button__9" onclick="insertNine()">9</button>

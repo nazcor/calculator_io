@@ -45,7 +45,7 @@ button {
     margin: 3px;
 }
 
-input[type=number] {
+input[type=text] {
     text-align: right;
     font-family: 'Quantico', sans-serif;
     font-size: 40px;
@@ -60,7 +60,7 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
-input[type=number] {
+input[type=text] {
   -moz-appearance: textfield;
 }
 
