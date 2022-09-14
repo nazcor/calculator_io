@@ -124,3 +124,14 @@ function deleteLast() {
     input = input.substring(0, input.length - 1);
     document.querySelector('#output').value = input;
 };
+
+function insertNeg() {
+    let input = document.querySelector('#output').value;
+    if (input[0] == '-') {
+        input = input.substring(1, input.length);
+    }
+    else {
+        input = '-' + input;
+    }
+    document.querySelector('#output').value = input;
+}
