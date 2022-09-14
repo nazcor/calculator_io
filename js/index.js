@@ -100,6 +100,18 @@ function insertNine() {
 };
 
 function insertDecimal() {
+    let input = document.querySelector('#output').value;
+    if(input.length == 0) {
+        document.querySelector('#output').value = '0.';
+        return;
+    }
+
+    for(let i = 0; i < input.length; i++) {
+        if(input[i] == '.') {
+            return;
+        }
+    }
+
     document.querySelector('#output').value += '.';
 };
 
